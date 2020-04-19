@@ -3,16 +3,12 @@
 #include <locale>
 
 using namespace std;
-
-string documento(){
-
-}
+int vidas = 5;
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
     // letra pra adivinhação e contador de vidas iniciado.
     char letra;
-    int vidas = 5;
 
     // Frase de início.
     cout << "\t\t\t #JOGODAFORCA\n" << endl;
@@ -20,7 +16,7 @@ int main(){
     cout << "\t\t\t";
 
     // Escolhe a palavra e define seu tamanho.
-    char palavra[] = {"Helicoptero"};
+    char palavra[] = {"carro"};
     int tamanho = sizeof(palavra)/sizeof(palavra[0])-1;
     char outra[tamanho] = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; // Só são utilizados os "X" necessários, o resto é descartado.
     for(int i=0; i<tamanho; i++){
@@ -39,17 +35,121 @@ int main(){
             if(palavra[k]==letra){ // Troca-se o "X" pela letra certa.
                 outra[k] = palavra[k];
                     existe = true;
-                }}
+                }
+                }
 
-            if(existe==true){ cout << "\t\t\t"; // Printa a palavra com a letra já incluída.
-                for(int i=0; i<tamanho; i++){ cout << outra[i] << "  "; existe = false; }}
+            if(existe==true){
+                cout << "\t\t\t"; // Printa a palavra com a letra já incluída.
+                for(int i=0; i<tamanho; i++){
+                    cout << outra[i] << "  "; existe = false;
+                    }
+                }
                 // Testes para caso a letra não exista na palavra.
             else{
-                cout << "\t\tNão existe letra " << letra << " nesta palavra" << endl;
+                cout << "\t\t\tNão existe letra " << letra << " nesta palavra" << endl;
                 vidas-=1;
-                if(vidas==1){ cout << "\t\tVocê só tem mais " << vidas << " tentativa" << endl; }
-                else if(vidas==0){ cout << "\033[31m\t\t\tACABOU, GAME OVER!!!\033[m" << endl; }
-                else{ cout << "\t\tVocê só tem mais " << vidas << " tentativas" << endl; }
-            }}
+                switch(vidas){
+                    case 4:
+                        cout << R"(
+                                " ______________"
+                                "|             |"
+                                "|             |"
+                                "|           __|__"
+                                "|          | + + |"
+                                "|          |__-__|"
+                                "|             |"
+                                "|            /|\"
+                                "|           / | \"
+                           " ____|_____     *  | *"
+                          " |           |     / \"
+                          " |           |    /   \"
+                          " |           |   *     *"
+                          " |___________|"
+                                                        )" << endl;
+                          break;
+                    case 3:
+                        cout << R"(
+                                " ______________"
+                                "|             |"
+                                "|             |"
+                                "|           __|__"
+                                "|          | + + |"
+                                "|          |__-__|"
+                                "|             |"
+                                "|            /|\"
+                                "|           / | \"
+                           " ____|_____     *  | *"
+                          " |           |       \"
+                          " |           |        \"
+                          " |           |         *"
+                          " |___________|"
+                                                        )" << endl;
+                          break;
+                    case 2:
+                         cout << R"(
+                                " ______________"
+                                "|             |"
+                                "|             |"
+                                "|           __|__"
+                                "|          | + + |"
+                                "|          |__-__|"
+                                "|             |"
+                                "|            /|\"
+                                "|           / | \"
+                           " ____|_____     *  | *"
+                          " |           |"
+                          " |           |"
+                          " |           |"
+                          " |___________|"
+                                                        )" << endl;
+                          break;
+                    case 1:
+                     cout << R"(
+                                " ______________"
+                                "|             |"
+                                "|             |"
+                                "|           __|__"
+                                "|          | + + |"
+                                "|          |__-__|"
+                                "|             |"
+                                "|             |\"
+                                "|             | \"
+                           " ____|_____        | *"
+                          " |           |"
+                          " |           |"
+                          " |           |"
+                          " |___________|"
+                                                        )" << endl;
+                          break;
+                    case 0:
+                     cout << R"(
+                                " ______________"
+                                "|             |"
+                                "|             |"
+                                "|           __|__"
+                                "|          | + + |"
+                                "|          |__-__|"
+                                "|             |"
+                                "|             |"
+                                "|             |"
+                           " ____|_____        |"
+                          " |           |"
+                          " |           |"
+                          " |           |"
+                          " |___________|"
+                                                        )" << endl;
+                          break;
+                    }
+                if(vidas==1){
+                    cout << "\t\tVocê só tem mais " << vidas << " tentativa" << endl;
+                    }
+                else if(vidas==0){
+                    cout << "\033[31m\t\t\tACABOU, GAME OVER!!!\033[m" << endl;
+                    }
+                else{
+                    cout << "\t\t\tVocê só tem mais " << vidas << " tentativas" << endl;
+                    }
+            }
+            }
     return 0;
 }
