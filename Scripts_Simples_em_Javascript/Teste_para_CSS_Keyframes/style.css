@@ -1,0 +1,182 @@
+body {
+  background-image: url("fundo.png");
+  background-size: cover;
+  padding-top: 20px;
+  position: fixed;
+  cursor: url('cursor2.png'), -moz-zoom-in;
+}
+
+.Canos #Cano1 {
+  position: absolute;
+  top: 426px;
+  left: 50px;
+}
+
+.Canos #Cano2 {
+  position: absolute;
+  top: 426px;
+  left: 250px;
+}
+
+.Canos #Cano3 {
+  position: absolute;
+  top: 426px;
+  left: 450px;
+}
+
+.Canos #Cano4 {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 426px;
+  left: 650px;
+}
+
+.Canos #Cano5 {
+  position: absolute;
+  top: 426px;
+  left: 850px;
+}
+
+#Texto {
+  font-size: 20pt;
+  color: black;
+  font-style: oblique;
+  padding-left: 10px;
+}
+
+#Pontos {
+  font-size: 20pt;
+  color: black;
+  font-style: oblique;
+  padding-left: 10px;
+}
+
+#Branco {
+  border-radius: 10px;
+  height: 60px;
+  width: 170px;
+  background-color: white;
+  display: none;
+  border: solid;
+  border-color: black;
+}
+
+#Certo  {
+  position: absolute;
+  top: 426px;
+  left: 50px;
+}
+
+#Mario {
+  position: absolute;
+  top: 334px;
+  display: none;
+}
+
+#Death {
+  position: absolute;
+  top: 334px;
+  display: none;
+}
+
+.Menu #botão {
+  border: none;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 1);
+  color: white;
+  height: 50px;
+  width: 120px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  cursor: url('cursor.png'), -moz-zoom-in;
+  margin: auto;
+}
+#botão:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+#botãoN {
+  border: none;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 1);
+  color: white;
+  height: 50px;
+  width: 260px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  cursor: url('cursor.png'), -moz-zoom-in;
+  display: none;
+  top: 250px;
+  left: 370px;
+}
+#botãoN:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+#Reset {
+  border: none;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 1);
+  color: white;
+  height: 50px;
+  width: 260px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  cursor: url('cursor.png'), -moz-zoom-in;
+  display: none;
+  top: 250px;
+  left: 370px;
+}
+#Reset:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+#Andando {
+  position: absolute;
+  top: 432px;
+  animation-duration: 15s;
+  animation-name: MarioAndando;
+  left: -150px;
+}
+
+@keyframes MarioAndando {
+  from {left:-150px;}
+  to {left: 1100px;}
+}
+
+#asd {
+  height: 1000px;
+  width: 1000px;
+  cursor: url('cursor2.png'), -moz-zoom-in;
+}
+
+#Errou {
+  position: absolute;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 130px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  display: none;
+  top: 250px;
+  left: 430px;
+}
