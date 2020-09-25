@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+
+#Bonequinho{
+  height: 35px;
+  width: 35px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  left: 100px;
+}
+#Bonequinho img{
+  height: 20px;
+  width: 25px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#Bonequinho2{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 8px;
+  top: -8px;
+  justify-content: center;
+}
+
+#Texto {
+  font-size: 20pt;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+}
+
+#Frase {
+  font-size: 20pt;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  top: 400px;
+}
