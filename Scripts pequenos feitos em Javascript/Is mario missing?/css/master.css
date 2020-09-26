@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.background {
+  background-image: url("../img/fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: url("../img/cursor2.png"), alias;
+}
+
+.canos {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-content: flex-end;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+}
+
+.canos img {
+  width: 45%;
+  cursor: url("../img/cursor.png"), pointer;
+  z-index: 2;
+}
+
+#mario {
+  z-index: 1;
+  position: absolute;
+  top: 80%;
+  left: 8%;
+  width: 4%;
+  display: none;
+}
+
+.background h1 {
+  position: absolute;
+  left: 2%;
+  font-family: cursive;
+  color: #9b5656;
+}
