@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Password Generator em JS</title>
+  </head>
+  <body>
+
+    <header>
+      <p>Gerando passwords em JS - Password Random Generator</p>
+    </header>
+
+    <input id="valor" type="number" placeholder="TAMANHO DO PASSWORD"/>
+    <button id="gerar" type="button" >GERAR PASSWORD</button>
+    <form>
+      <input id="uppercase" type="checkbox">
+      <label id="uppercaseLabel" for="uppercase">Adicionar letras maiúsculas</label>
+      <input id="lowercase" type="checkbox">
+      <label id="lowercaseLabel" for="lowercase">Adicionar letras minúsculas</label>
+      <input id="numbers" type="checkbox">
+      <label id="numbersLabel" for="numbers">Adicionar números</label>
+      <input id="symbols" type="checkbox">
+      <label id="symbolsLabel" for="symbols">Adicionar símbolos</label>
+    </form>
+    <p id="força">Força do password:</p>
+
+    <button type="button" id="copiar">Copiar</button>
+    <textarea id="valorr"></textarea>
+
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>

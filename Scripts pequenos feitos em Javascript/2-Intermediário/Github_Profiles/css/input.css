@@ -1,0 +1,34 @@
+input {
+  border: 2px solid lightblue;
+  border-radius: 8px;
+  position: absolute;
+  top: 20%;
+  height: 30px;
+  width: 321px;
+  padding: 8px;
+  color: gray;
+  font-family: cursive;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+#buscar {
+  border: none;
+  background-color: lightblue;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 90px;
+  top: 29%;
+  position: absolute;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#vision_mode {
+  top: 9%;
+  position: absolute;
+  cursor: pointer;
+  left: 91%;
+  font-size:3vw;
+}

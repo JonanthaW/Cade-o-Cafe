@@ -1,0 +1,22 @@
+.pos {
+  position: absolute;
+  background-color: rgba(237, 81, 187);
+  top: 50%;
+  height: 47vh;
+  width: 96.85vw;
+  border: 20px solid rgba(189, 57, 147);
+  border-bottom: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#palavra_escolhida {
+  font-size: 6vw;
+  color: white;
+  letter-spacing: 50px;
+  font-family: 'Chilanka', cursive;
+  margin: 0 auto;
+  margin-top: 2%;
+}

@@ -1,0 +1,32 @@
+.choose {
+  display: grid;
+  position: absolute;
+  height: 32vh;
+  width: 71vw;
+  top: 50%;
+  grid-template-columns: auto auto;
+  margin: 0 auto;
+}
+
+.choose button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  height: 286px;
+  width: 280px;
+  cursor: pointer;
+  margin: 0 auto;
+  font-weight: bold;
+  align-self: center;
+  font-family: 'Pangolin', cursive;
+  font-size: 3vw;
+  color: white;
+}
+
+#box-true {
+  background-color: green;
+}
+
+#box-false {
+  background-color: red;
+}

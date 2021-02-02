@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Border-Previewer em JS</title>
+  </head>
+  <body>
+    <header>
+      <p> Working with CSS - Border Radius Previewer 🔴</p>
+    </header>
+
+    <div class="container">
+      <div id="retangle"></div>
+    </div>
+
+    <input id="top_left" type="range" min="0" max="100">
+    <input id="top_right" type="range" min="0" max="100">
+    <input id="bottom_left" type="range" min="0" max="100">
+    <input id="bottom_right" type="range" min="0" max="100">
+    <input id="radius_top" type="range" min="0" max="100">
+    <input id="radius_bottom" type="range" min="0" max="100">
+    <input id="radius_left" type="range" min="0" max="100">
+    <input id="radius_right" type="range" min="0" max="100">
+    
+    <button id="copy" type="button">Copy Style</button>
+    <textarea rows="8" cols="80"></textarea>
+
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>

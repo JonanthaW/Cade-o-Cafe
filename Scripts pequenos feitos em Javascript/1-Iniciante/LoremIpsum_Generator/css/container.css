@@ -1,0 +1,57 @@
+.containerInputs {
+  height: 10vw;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.containerInputs input {
+  height: 2vh;
+  margin: 2vw;
+  color: gray;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.containerInputs button {
+  height: 5vh;
+  font-size: 1.2vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 2vw;
+  border: none;
+  background-color: #b33131;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.containerTexto {
+  border: 2px solid #b33131;
+  margin: 2vw;
+  overflow-y: scroll;
+  height: 40vh;
+  width: 95vw;
+  font-size: 1.1vw;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+#copiar {
+  height: 5vh;
+  font-size: 1.2vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  color: white;
+  background-color: #b33131;
+  margin-left: 2%;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+}

@@ -1,0 +1,15 @@
+#player {
+  position: absolute;
+  left: 2%;
+  height: 10vh;
+  width: 1vw;
+  background-color: white;
+}
+
+#computer {
+  position: absolute;
+  left: 98%;
+  height: 10vh;
+  width: 1vw;
+  background-color: black;
+}

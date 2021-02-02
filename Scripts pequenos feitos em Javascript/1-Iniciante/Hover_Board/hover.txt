@@ -1,0 +1,16 @@
+# Hover board
+
+**Tier:** 1-Beginner
+
+It's time to dance! Can you make whenever the mouse passes over one of the squares it "blinks" randomly?
+
+
+## User Stories
+
+-   [ ] User can hover at a square and see it changing color.
+
+## Bonus features
+
+-   [ ] User can enter a "crazy mode", displaying all squares at once.
+
+-   [ ] A music of your choice will play when going "crazy mode".

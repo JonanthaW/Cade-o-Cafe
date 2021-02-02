@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 5vw;
+  width: 100%;
+  background-color: #b33131;
+  display: flex;
+}
+
+header p {
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: white;
+  margin-left: 2%;
+  align-self: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  font-weight: bold;
+  color: black;
+  font-size: 2vw;
+  font-family: sans-serif;
+  top: 38%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+button {
+  position: absolute;
+  top: 54%;
+  border: none;
+  color: black;
+  font-size: 1.3vw;
+  background-color: #3ec8f5;
+  height: 6vh;
+  width: 11vw;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  font-size: 1.5vw;
+}
+
+
+iframe {
+  position: absolute;
+  width: 720px;
+  height: 450px;
+  top: 44%;
+  display: none;
+  border:2px solid black;
+  border-radius:10px;
+}
+
+.receita {
+  position: absolute;
+  height: 72%;
+  width: 95%;
+  background-color: white;
+  top: 120%;
+  border: none;
+  border-radius: 20px;
+  display: none;
+  justify-content: center;
+}
+
+#img_receita {
+  position: absolute;
+  width: 29%;
+  height: 55%;
+  top: 2%;
+  left: 5%;
+  border: none;
+  background-color: rgba(0,0,0,0);
+}
+
+#nome_receita {
+  position: absolute;
+  font-size: 3.5vw;
+  color: black;
+  top: 35%;
+  margin: 0 auto;
+}
+
+#ingredientes_receita {
+  position: absolute;
+  top: 56%;
+  left: 6%;
+  font-size: 1.2vw;
+  font-style: italic;
+}
+
+#ingredientes_receita li {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#preparo_receita {
+  position: absolute;
+  left: 42%;
+  width: 57%;
+  word-wrap: break-word;
+}

@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+
+header {
+  position: absolute;
+  height: 10%;
+  background-color: #176a84;
+  width: 100%;
+  border: none;
+  display: flex;
+}
+
+header p {
+  color: white;
+  font-size: 2vw;
+  font-family: cursive;
+  font-weight: bold;
+  margin-left: 2%;
+  align-self: center;
+}
+
+#valor {
+  position: absolute;
+  top: 20%;
+  border: 2px solid black;
+  color: gray;
+  border-radius: 20px;
+  font-size: 2vw;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  top: 40%;
+  border: none;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+label {
+  position: absolute;
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-family: cursive;
+  color: gray;
+}
+input {
+  position: absolute;
+}
+
+#uppercase {
+  top: 27%;
+  left: 20%;
+}
+
+#uppercaseLabel {
+  top: 27%;
+  left: 22%;
+}
+
+#lowercase {
+  top: 27%;
+  left: 44%;
+}
+
+#lowercaseLabel {
+  top: 27%;
+  left: 46%;
+}
+
+#numbers {
+  top: 27%;
+  left: 68%;
+}
+
+#numbersLabel {
+  top: 27%;
+  left: 70%;
+}
+
+#symbols {
+  top: 32%;
+  left: 44%;
+}
+
+#symbolsLabel {
+  top: 32%;
+  left: 46%;
+}
+
+#valorr {
+	position: absolute;
+	top: 57%;
+	color: gray;
+	font-size: 5vw;
+	font-family: cursive;
+  word-wrap: anywhere;
+  margin: 50px;
+  border: none;
+}
+
+#copiar {
+  position: absolute;
+  top: 57%;
+  border: none;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  width: 7vw;
+  height: 5vh;
+  left: 88%;
+  display: none;
+}
+
+#força {
+  position: absolute;
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: cursive;
+  color: gray;
+  top: 49%;
+  left: 13%;
+}

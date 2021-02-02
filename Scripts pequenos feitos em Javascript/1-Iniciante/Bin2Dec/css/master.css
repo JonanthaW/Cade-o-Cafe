@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+.container {
+  align-self: center;
+  height: 60vh;
+  width: 50vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+header {
+  position: absolute;
+  height: 10%;
+  background-color: #176a84;
+  width: 100%;
+  border: none;
+}
+
+header p {
+  color: white;
+  font-size: 2vw;
+  font-family: cursive;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+
+ input {
+  position: absolute;
+  height: 3vh;
+  width: 17vw;
+  top: 32%;
+}
+
+button {
+  position: absolute;
+  top: 40%;
+  font-family: cursive;
+}
+
+#resultado {
+  position: absolute;
+  top: 52%;
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+h1 {
+  font-family: cursive;
+}

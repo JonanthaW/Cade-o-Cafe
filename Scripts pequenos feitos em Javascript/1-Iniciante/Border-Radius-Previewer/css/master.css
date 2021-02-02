@@ -1,0 +1,125 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  height: 7%;
+  background-color: #176a84;
+  width: 100%;
+  border: none;
+  display: flex;
+}
+
+header p {
+  color: white;
+  font-size: 2vw;
+  font-family: cursive;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-left: 2%;
+  align-self: center;
+}
+
+
+.container {
+  height: 93%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#retangle {
+  width: 20vw;
+  height: 26vh;
+  border: 2px solid black;
+  align-self: center;
+}
+
+input {
+  position: absolute;
+  font-size: 1vw;
+  -webkit-appearance: none;
+  width: 150px;
+  height: 3px;
+  background: #000;
+  cursor: pointer;
+}
+
+#top_left {
+  top: 26%;
+  left: 19%;
+}
+
+#top_right {
+  top: 26%;
+  left: 67%;
+}
+
+#bottom_left {
+  top: 78%;
+  left: 19%;
+}
+
+#bottom_right {
+  top: 78%;
+  left: 67%;
+}
+
+#radius_top {
+  top: 22%;
+  left: 39%;
+  width: 250px;
+}
+
+#radius_bottom {
+  top: 82%;
+  left: 39%;
+  width: 250px;
+}
+
+#radius_left {
+  top: 52%;
+  left: 7%;
+  transform: rotate(90deg);
+}
+
+#radius_right {
+  top: 52%;
+  left: 80%;
+  transform: rotate(90deg);
+}
+
+#copy {
+  height: 7vh;
+  width: 8vw;
+  background-color: #176a84;
+  position: absolute;
+  left: 87%;
+  top: 88%;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#copy:hover {
+  font-size: 1.3vw;
+}
+
+textarea {
+  display: none;
+}

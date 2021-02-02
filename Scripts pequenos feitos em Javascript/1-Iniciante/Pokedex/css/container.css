@@ -1,0 +1,109 @@
+.container_status {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  justify-content: center;
+  display: none;
+}
+
+.container_body {
+  height: 77vh;
+  width: 90vw;
+  background-color: white;
+  border-top: 15px solid #b33131;
+  border-radius: 10px;
+  position: fixed;
+  margin-top: 2%;
+  display: flex;
+}
+
+.container_body img {
+  align-self: center;
+  margin-left: 4%;
+  height: 45vh;
+}
+
+.grid_type {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 2%;
+  left: 8%;
+}
+
+.grid_type div {
+  height: 5vh;
+  width: 6vw;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#nome_status {
+  font-size: 3vw;
+  margin: 0 auto;
+  position: absolute;
+  left: 41%;
+  top: 5%;
+  font-family: 'Architects Daughter', cursive;
+  text-transform: capitalize;
+}
+
+#flavor_status {
+  color: gray;
+  font-size: 1.5vw;
+  font-family: 'Architects Daughter', cursive;
+  left: 43%;
+  top: 18%;
+  position: absolute;
+}
+
+#icone_status {
+  height: 7vh;
+  width: 4vw;
+  position: absolute;
+  top: 6%;
+  left: 32%;
+}
+
+#peso_status {
+  color: #353434;
+  font-size: 2vw;
+  font-family: 'Architects Daughter', cursive;
+  left: 43%;
+  top: 48%;
+  position: absolute;
+}
+
+#habilidade_status {
+  color: #353434;
+  font-size: 2vw;
+  font-family: 'Architects Daughter', cursive;
+  left: 60%;
+  top: 48%;
+  position: absolute;
+}
+
+.gridStatus {
+  position: absolute;
+  top: 64%;
+  height: 36%;
+  width: 55%;
+  left: 47%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.gridStatus p {
+  color: #353434;
+  font-size: 1.5vw;
+  font-family: 'Architects Daughter', cursive;
+}

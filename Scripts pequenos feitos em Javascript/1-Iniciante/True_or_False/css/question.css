@@ -1,0 +1,39 @@
+.central {
+  display: flex;
+  justify-content: center;
+}
+
+.central p {
+  position: absolute;
+  font-weight: bold;
+  font-family: 'Pangolin', cursive;
+  color: white;
+}
+
+#question {
+  top: 20%;
+  font-size: 3vw;
+  word-wrap: break-word;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#difficulty {
+  top: 9%;
+  font-size: 1.8vw;
+  left: 6%;
+}
+
+#score {
+  top: 9%;
+  font-size: 1.8vw;
+  font-weight: bold;
+  left: 86%;
+}
+
+#category {
+  top: 9%;
+  font-size: 1.8vw;
+}

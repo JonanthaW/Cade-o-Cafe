@@ -1,0 +1,28 @@
+section {
+  display: flex;
+  position: relative;
+}
+
+section .lista {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  padding: 20px;
+  grid-row-gap: 20px;
+  grid-column-gap: 4em;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  section .lista {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 20px;
+    grid-row-gap: 20px;
+    grid-column-gap: 2em;
+    justify-content: center;
+  }
+}

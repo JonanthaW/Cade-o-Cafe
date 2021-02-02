@@ -1,0 +1,14 @@
+.laps {
+  position: absolute;
+  display: grid;
+  height: 19%;
+  width: 86%;
+  top: 74%;
+  grid-template-columns: auto auto auto auto;
+}
+
+.laps span {
+  color: white;
+  font-size: 2.5vw;
+  font-family: 'Geo', sans-serif;
+}

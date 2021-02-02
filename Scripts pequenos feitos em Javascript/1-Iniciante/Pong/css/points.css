@@ -1,0 +1,9 @@
+#points_right, #points_left {
+  font-size: 3vw;
+  font-weight: bold;
+  color: black;
+}
+
+#points_left {
+  color: white !important;
+}

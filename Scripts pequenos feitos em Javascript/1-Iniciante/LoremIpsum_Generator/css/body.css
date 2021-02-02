@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 5vw;
+  width: 100%;
+  background-color: #b33131;
+  display: flex;
+}
+
+header p {
+  font-size: 3vw;
+  font-weight: bold;
+  color: white;
+  margin-left: 2%;
+  align-self: center;
+}
