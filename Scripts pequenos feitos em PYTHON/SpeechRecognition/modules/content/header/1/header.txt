@@ -1,0 +1,16 @@
+<header>
+  <nav class="navigator">
+    <figure>
+      <a href="#index">
+        <img src="assets/img/logo.svg" alt="Lorem ipsum">
+      </a>
+    </figure>
+    <div class="nav-Anchor">
+      <ul>
+        <li><a href="#sobre">Lorem ipsum</a></li>
+        <li><a href="#serviços">Lorem ipsum</a></li>
+        <li><a href="#contato">Lorem ipsum</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,69 @@
+<footer>
+  <div class="footerlinks">
+    <section>
+      <h3>lorem ipsum</h3>
+      <ul>
+        <li>
+          <a href="#">lorem ipsum</a>
+        </li>
+        <li>
+          <a href="#">lorem ipsum</a>
+        </li>
+        <li>
+          <a href="#">lorem ipsum</a>
+        </li>
+        <li>
+          <a href="#">lorem ipsum</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3>lorem ipsumE</h3>
+      <ul>
+        <li>
+          <p>lorem ipsum</p>
+        </li>
+        <li>
+          <p>lorem ipsum</p>
+        </li>
+        <li>
+          <p>lorem ipsum</p>
+        </li>
+        <li>
+          <p>lorem ipsum</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3>lorem ipsum</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue porttitor placerat. Sed facilisis cursus arcu sed lobortis. Curabitur venenatis odio ligula, non tristique massa vestibulum at.</p>
+    </section>
+    <section>
+      <h3>lorem ipsum</h3>
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f" id="facebook"></i>
+        </li>
+        <li>
+          <i class="fas fa-envelope" id="email"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube" id="youtube"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter" id="twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-soundcloud" id="soundcloud"></i>
+        </li>
+        <li>
+          <i class="fab fa-whatsapp" id="whatsapp"></i>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="copyright">
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue porttitor placerat. Sed facilisis cursus arcu sed lobortis. Curabitur venenatis odio ligula, non tristique massa vestibulum at.</span>
+  </section>
+</footer>

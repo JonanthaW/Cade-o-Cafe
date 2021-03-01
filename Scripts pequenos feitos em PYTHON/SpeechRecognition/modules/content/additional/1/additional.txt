@@ -1,0 +1,38 @@
+<section class="services" id="serviços">
+  <div class="packages">
+    <h3>lorem ipsum</h3>
+    <h1>lorem ipsum</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue porttitor placerat. Sed facilisis cursus arcu sed lobortis. Curabitur venenatis odio ligula, non tristique massa vestibulum at. </p>
+  </div>
+  <div class="packagesHolder">
+    <ul class="packagesOptions">
+      <li>
+        <figure>
+          <img src="img/midia.svg" alt="mídia">
+        </figure>
+        <p>lorem ipsum</p>
+      </li>
+      <li>
+        <figure>
+          <img src="img/inbound.svg" alt="Inbound">
+        </figure>
+        <p>lorem ipsum</p>
+      </li>
+      <li>
+        <figure>
+          <img src="img/email.svg" alt="E-mail">
+        </figure>
+        <p>lorem ipsum</p>
+      </li>
+      <li>
+        <figure>
+          <img src="img/design.svg" alt="Design">
+        </figure>
+        <p>lorem ipsum</p>
+      </li>
+    </ul>
+  </div>
+  <button type="button" id="budget">
+    <a href="#">lorem ipsum</a>
+  </button>
+</section>
